@@ -15,7 +15,7 @@ curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chm
 运行脚本：
 
 ```
-sudo ./debi.sh --cdn --network-console --ethx --timezone Asia/Shanghai --bbr --user root --password 11111111
+./debi.sh --cdn --network-console --ethx --timezone Asia/Shanghai --bbr --user root --password 11111111
 ```
 
 * `--bbr` 开启 BBR
