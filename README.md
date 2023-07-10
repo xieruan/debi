@@ -9,13 +9,13 @@
 下载脚本：
 
 ```
-curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
+curl -fLO https://ghproxy.com/https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
 ```
 
 运行脚本：
 
 ```
-./debi.sh --cdn --network-console --ethx --timezone Asia/Shanghai --bbr --user root --password 11111111
+./debi.sh --version 11 --network-console --ethx --timezone Asia/Shanghai --bbr --user root --password 11111111 --china
 ```
 
 * `--bbr` 开启 BBR
